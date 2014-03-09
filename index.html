@@ -16,7 +16,7 @@
     </style>
 </head>
 <body ng-app>
-    <div ng-controller="TicTacToeCtrl">
+    <div ng-controller="GridCtrl">
         <div ng-repeat="row in board track by $index">
             <div class="cell" ng-repeat="cell in row track by $index" id="{{cell.x}}-{{cell.y}}"></div>
         </div>

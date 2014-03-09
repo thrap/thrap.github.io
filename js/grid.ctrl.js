@@ -1,4 +1,4 @@
-function TicTacToeCtrl($scope) {
+function GridCtrl($scope) {
     var SIZE = 6;
     $scope.board = [];
     for(var i = 0; i<SIZE; i++) {
