@@ -56,10 +56,10 @@
                 isDragging = !isDragging;
                 var $el = $(e.target);
                 start = $el.attr("id").split("-");
-                if (isDragging)
-                    $el.addClass('active');
-                else
+                if (isDragging) {
                     $('.cell').removeClass('active');
+                    $el.addClass('active');
+                }
             });
         })
     </script>
